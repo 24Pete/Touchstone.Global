@@ -1,7 +1,7 @@
 import React, { Component } from "react"; 
 import axios from "axios";
 
-export default class Contact extends React.Component {
+export default class Contact extends React.Component <any, any> {
   constructor(props) {
     super(props);
 
