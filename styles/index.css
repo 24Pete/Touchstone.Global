@@ -92,7 +92,7 @@ body:has(dialog[open]) {
   clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
   height: 95%;
   width: 95%;
-  outline: 1px solid #6BC8C4;
+  outline: 1px solid #6BC8C4 ;
 
 }
 .hexagonal-cont2 {

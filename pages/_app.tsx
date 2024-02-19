@@ -9,6 +9,8 @@ import "aos/dist/aos.css";
 import { ApolloProvider } from "@apollo/client";
 import { client } from "../lib/apollo.js";
 import 'locomotive-scroll/dist/locomotive-scroll.css';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -43,6 +45,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />;
     </div>
     </ApolloProvider>
+    <SpeedInsights/>
   </RLSProvider>
 
   )
