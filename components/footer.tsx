@@ -50,8 +50,8 @@ export default function Footer() {
         <div className="grid grid-cols-2 ">
           <div className="col-span-1">
             <Year />
-          <button className="pr-6 pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>document.getElementById('my_modal_1').showModal()}>Privacy Policy</button>
-          <button className="pr-4 pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>document.getElementById('my_modal_2').showModal()}>Cookies</button>
+          <button className="pr-6 pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_1') as HTMLDialogElement).showModal()}>Privacy Policy</button>
+          <button className="pr-4 pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_2') as HTMLDialogElement).showModal()}>Cookies</button>
 
           </div>
 
