@@ -1,4 +1,3 @@
-import { AppProps } from "next/app";
 import "../styles/index.css";
 import { useRouter } from 'next/router';
 import type { AppProps } from 'next/app';
