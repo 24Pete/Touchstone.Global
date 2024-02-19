@@ -1,10 +1,7 @@
 import Container from "./container";
 import Contact from "./cf7";
-import { EXAMPLE_PATH } from "../lib/constants";
 import Year from "./year";
-import {DisableScroll} from "../components/disableScroll";
 import Image from 'next/image'
-import {RemoveScroll} from 'react-remove-scroll';
 
 export default function Footer() {
   return (
