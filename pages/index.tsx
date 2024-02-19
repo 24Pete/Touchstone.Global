@@ -15,7 +15,7 @@ export default function Index() {
 
   return (
 
-    <Layout  >
+    <>
       <Head>
         <title>{`Touchstone - Engage, Enable, Empower`}</title>
    
@@ -163,7 +163,7 @@ export default function Index() {
       </section>
      
  
-    </Layout>
+    </>
 
 
   );
