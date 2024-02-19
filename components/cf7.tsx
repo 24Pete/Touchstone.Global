@@ -16,23 +16,20 @@ export default class Contact extends Component {
 
   onChangeHandler = (e) => {
     this.setState({ [e.target.name]: e.target.value });
-
-    console.log(e.target.value);
   };
 
   onSubmit = (e) => {
     e.preventDefault();
 
-
-
     const formData = {
-        'your-name': this.state.name,
-        'your-email': this.state.email,
-        'your-position': this.state.position,
-    }
+      'your-name': this.state.name,
+      'your-email': this.state.email,
+      'your-position': this.state.position,
+    };
+
     axios
       .post(
-        `http://touchstoneapi.local/wp-json/contact-form-7/v1/contact-forms/18/feedback`,
+        `https://touchstone.api.24m.co.uk/wp-json/contact-form-7/v1/contact-forms/18/feedback`,
         formData,
         {
           headers: {
@@ -41,6 +38,7 @@ export default class Contact extends Component {
         }
       )
       .then((res) => {
+  
         res.data.status === "mail_sent"
           ? this.setState({
               messageSent: res.data.message,
@@ -57,52 +55,59 @@ export default class Contact extends Component {
   };
 
   render() {
+    const { messageSent } = this.state;
+
     return (
-      <form onSubmit={this.onSubmit} className="mb-10 mt-10">
-        <div className="grid grid-cols-2 mb-10">
-        <div className="col-span-1  mr-10">
-          <input
-            placeholder="Your name"
-            type="text"
-            name="name"
-            value={this.state.name}
-            onChange={this.onChangeHandler}
-            className="w-full p-4 bg-transparent border-b border-b-dusk placeholder-dusk "
-          />
-          </div>
-          <div className="col-span-1">
-          <input
-            placeholder="Your email"
-            type="text"
-            name="email"
-            value={this.state.email}
-            onChange={this.onChangeHandler}
-            className="w-full p-4 bg-transparent border-b border-b-dusk placeholder-dusk "
-          />
-          </div>
+      <div>
+      
+        <form onSubmit={this.onSubmit} className="mb-10 mt-10">
+          <div className="grid grid-cols-2 mb-10">
+            <div className="col-span-1  mr-10">
+              <input
+                placeholder="Your name"
+                type="text"
+                name="name"
+                value={this.state.name}
+                onChange={this.onChangeHandler}
+                className="w-full p-4 bg-transparent border-b border-b-dusk placeholder-dusk "
+              />
+            </div>
+            <div className="col-span-1">
+              <input
+                placeholder="Your email"
+                type="text"
+                name="email"
+                value={this.state.email}
+                onChange={this.onChangeHandler}
+                className="w-full p-4 bg-transparent border-b border-b-dusk placeholder-dusk "
+              />
+            </div>
           </div>
           <div className="grid grid-cols-12">
-          <div className="col-span-10">
-          <input
-            placeholder="Your Position"
-            type="text"
-            name="position"
-            value={this.state.position}
-            onChange={this.onChangeHandler}
-            className="w-full p-4 bg-transparent border-b border-b-dusk placeholder-dusk "
-           
-          />
+            <div className="col-span-10">
+              <input
+                placeholder="Your Position"
+                type="text"
+                name="position"
+                value={this.state.position}
+                onChange={this.onChangeHandler}
+                className="w-full p-4 bg-transparent border-b border-b-dusk placeholder-dusk "
+              />
+            </div>
+            <div className="col-span-2">
+              <button type="submit" className="bg-dusk w-full p-4 text-azure font-bold text-lg pb-[13px]">
+                SUBMIT
+              </button>
+            </div>
           </div>
-          <div className="col-span-2">
-          <button type="submit" className="bg-dusk w-full p-4 text-azure font-bold text-lg pb-[13px]">
-            SUBMIT
-          </button>
-        </div>
-         
-        </div>
+        </form>
 
-      
-      </form>
+        {messageSent && (
+          <div className="confirmation-message">
+            Thank you for getting in touch. We will get back to you shortly.
+          </div>
+        )}
+      </div>
     );
   }
 }

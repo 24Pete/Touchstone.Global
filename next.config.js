@@ -23,7 +23,7 @@ module.exports = {
         hostname: '1.gravatar.com'
       },
       {
-        hostname: 'touchstoneapi.local'
+        hostname: 'touchstone.api.24m.co.uk'
       },
       
     ],

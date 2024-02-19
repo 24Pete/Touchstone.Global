@@ -1,19 +1,12 @@
 import Head from "next/head";
-import { GetStaticProps } from "next";
-import Container from "../components/container";
 import Slick from "../components/slider";
 import Hero from "../components/hero";
-import MoreStories from "../components/more-stories";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
-import { getAllPostsForHome } from "../lib/api";
-import { CMS_NAME } from "../lib/constants";
 import Image from 'next/image'
 import LoadMore from '../components/loadMorePosts'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { LocomotiveScrollProvider as RLSProvider } from 'react-locomotive-scroll';
-import 'locomotive-scroll/dist/locomotive-scroll.css';
 import { loadErrorMessages, loadDevMessages } from "@apollo/client/dev";
 
 export default function Index() {
@@ -37,7 +30,7 @@ export default function Index() {
       <Hero />
 
 
-      <div className="mountains-box bg-azure py-10 lg:h-[600px]">
+      <div className="mountains-box bg-azure py-10 lg:h-[650px] pb-32">
         <div className=" container mx-auto px-5 relative">
           <div className="grid grid-cols-12">
             <div className=" col-span-12 lg:col-span-7 lg:col-start-4">
@@ -53,7 +46,7 @@ export default function Index() {
 
           <div className="grid grid-cols-12">
             <div className="col-span-12 g:col-span-8 lg:col-start-4">
-      <div className="lg:w-full w-full lg:h-[350px] bg-dusk lg:absolute">  </div>
+      <div className="lg:w-full w-full lg:h-[395px] bg-dusk lg:absolute">  </div>
               <div className="grid grid-cols-2 grid-child p-10 relative bg-dusk lg:bg-dusk"> 
                 <div className="col-span-1">
                     <Image
@@ -64,7 +57,7 @@ export default function Index() {
                     className="w-[90%] h-auto"
                   />
                 </div>
-                <div className="col-span-1">
+                <div className="col-span-1 pt-8">
                   <p className="font-bold text-white text-xl mb-5">The Touchstone collective are seasoned world-class professionals, with decades of real-world business experience across multiple sectors, delivering exceptional results for our chosen partners.</p>
                   <p className="font-light text-white text-xl "> Our “Six Steps of Leadership” methodology forms the key foundation to empower you and your business with the right focused resources, enabling organisational goals to be accelerated.</p>
                 </div>
@@ -156,7 +149,7 @@ export default function Index() {
         <h3 className="font-bold text-[48px]  text-azure">TOUCHSTONE COLLECTIVE</h3>
         <p className="text-xl font-light text-white mt-4  mb-10"> Our mission is simple: to support you in navigating commercial and operational challenges. From business psychology, process and digital transformation to risk analysis, IT management, recruitment, development, and fostering innovative solutions.</p>
         </div>
-        <div className="">
+        <div >
         <Slick/>
         </div>
       </div>
@@ -164,6 +157,7 @@ export default function Index() {
       </section>
       <section className="insights py-20">
         <div className="container mx-auto px-20 relative">
+          <h3 className="text-[38px] text-azure font-medium mb-10"> Insights</h3>
         <LoadMore/>
         </div>
       </section>

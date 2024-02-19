@@ -25,22 +25,16 @@ export default function PostPreview({
     
       </h3>
     
-
- 
-
-
-
-
     
       <div
         className="text-md leading-snug  p-3 pt-0 font-light text-dusk"
-        dangerouslySetInnerHTML={{ __html: excerpt }}
+        dangerouslySetInnerHTML={{ __html: featuredImage }}
       />
 
  
 
          <Link
-          href={`/posts/${slug}`}
+          href={`/insights/${slug}`}
           className="hover:underline pl-3 mb-4 block font-medium text-dusk"
           
         >Read more...</Link>

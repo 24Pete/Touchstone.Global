@@ -4,21 +4,7 @@ import Image from 'next/image';
 import StickyLogo from './stickylogo'
 
 export default function Hero() {
-    useEffect( () => {
-
-        (
-    
-          async () => {
-    
-              const LocomotiveScroll = (await import('locomotive-scroll')).default
-    
-              const locomotiveScroll = new LocomotiveScroll();
-    
-          }
-    
-        )()
-    
-      }, [])
+ 
     return (
  <>
 <StickyLogo/>

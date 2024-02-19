@@ -10,25 +10,33 @@ export default function PostHeader({
   date,
   author,
   categories,
+
 }) {
   return (
     <>
-      <PostTitle>{title}</PostTitle>
-      <div className="hidden md:block md:mb-12">
-        <Avatar author={author} />
-      </div>
-      <div className="mb-8 md:mb-16 sm:mx-0">
-        <CoverImage title={title} coverImage={coverImage} />
-      </div>
-      <div className="max-w-2xl mx-auto">
-        <div className="block md:hidden mb-6">
-          <Avatar author={author} />
-        </div>
-        <div className="mb-6 text-lg">
-          Posted <Date dateString={date} />
+    
+    <div className="container mx-auto px-5 mt-10">
+    <div className="grid grid-cols-3">
+        <div className="col-span-1   p-5 pt-20 border-r-0 bg-white">
+
+<span className=" pb-5 inline-block text-dusk">
+        Posted <Date dateString={date} />
+        </span>
+        <span className="pb-5 inline-block text-dusk">
           <Categories categories={categories} />
+          </span>
+
+         <h1 className="text-4xl text-dusk pb-10 "> {title} </h1>
+      
         </div>
-      </div>
+     
+        <div className="col-span-2 tar " >
+        <CoverImage title={title} coverImage={coverImage} />
+         </div> 
+        </div>
+  
+    </div>
     </>
   );
 }
+
