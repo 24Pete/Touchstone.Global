@@ -61,7 +61,7 @@ export default function LoadMorePost(
           return (
             <div
               key={databaseId}
-              className="col-span-1 bg-white "
+              className="col-span-1 bg-[#D9D9D9] "
           >  
        
    
@@ -79,10 +79,9 @@ export default function LoadMorePost(
       {/* Div with Background Image */}
       <div style={{
         backgroundImage: `url(${post.featuredImage?.node.sourceUrl})`,
-        backgroundSize: 'cover', // Ensures the background image covers the div
-        backgroundPosition: 'center', // Centers the background image
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center', 
       }}
-      
       className="featured-image"
       >
       </div>
@@ -117,12 +116,12 @@ export default function LoadMorePost(
             fetchMore({ variables: { after: data.posts.pageInfo.endCursor } });
           }}
         >
-          <button type="submit" className="bg-azure pt-3 pb-3 pl-6 pr-6 font-bold text-dusk text-lg uppercase mt-6 " >
+          <button type="submit" className="bg-azure pt-3 pb-3 pl-6 pr-6 font-bold text-dusk text-lg uppercase mt-10 mb-5 " >
             {loading ? "Loading..." : "View More Insights"}
           </button>
         </form>
       ) : (
-        <p className="bg-azure pt-3 pb-3 pl-6 pr-6 font-bold text-dusk text-lg uppercase mt-6 inline-block bg-opacity-50	 ">All Insights loaded</p>
+        <p className="bg-azure pt-3 pb-3 pl-6 pr-6 font-bold text-dusk text-lg uppercase mt-10 inline-block bg-opacity-50 mb-5 ">All Insights loaded</p>
       )}
     </>
   );

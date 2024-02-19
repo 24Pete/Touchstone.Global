@@ -42,6 +42,14 @@ html.has-scroll-smooth {
   }
 }
 
+.insights {
+  background-image: url('/images/bg-logo.webp');
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position-x: 110%;
+  background-position-y: top;
+}
+
 .slick-prev, .slick-next {
   background: transparent;
 }

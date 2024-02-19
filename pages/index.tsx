@@ -70,8 +70,13 @@ export default function Index() {
 
     </div>
 
-    <div className="three-steps pt-20 pb-20">
+    <div className="three-steps pt-20 pb-20 relative">
+
+
+
       <div className="container mx-auto px-5 relative">
+
+
         <div className="grid grid-cols-12">
           <div className="col-span-8 col-start-4">
             <div className="grid grid-cols-2 grid-child"> 
@@ -81,19 +86,31 @@ export default function Index() {
               </div>
               <div className="col-span-1 mb-10">
 
-              <Image
-      src="/images/m1.png"
-      width={1200}
-      height={400}
-      alt="Touchstone Logo"
-      className="border-azure border-b-4 max-w-max"
-    />
+              <div>
+      {/* Invisible Image for Preloading */}
+      <div style={{ display: 'none' }}>
+        <Image src="/images/m1.png" alt="" layout="fill" objectFit="cover" />
+      </div>
 
+      {/* Div with Background Image */}
+      <div style={{
+        backgroundImage: `url(/images/m1.png)`,
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center', 
+        width: '800px',
+        height: '300px',
+        position: 'absolute',
+        right: '-300px',
+      }}
+      className="border-azure border-b-4 "
+      >
+      </div>
+    </div>
 
               </div>
 
               <div className="col-span-1"></div>
-              <div className="col-span-1 pl-36">
+              <div className="col-span-1 pl-36 mt-16">
                 <h3 className="text-[38px] text-azure font-medium"> Enable</h3>
                 <p className="font-light text-white text-xl">The insightful experience and deep knowledge through the Touchstone collective, will ENABLE you to further develop your why and explore sustainable development opportunities formalised in a value creation plan.</p>
               </div>
@@ -105,13 +122,29 @@ export default function Index() {
               <div className="col-span-1 mt-10">
 
 
-              <Image
-      src="/images/m2.png"
-      width={600}
-      height={400}
-      alt="Touchstone Logo"
-      className="border-azure border-b-4"
-    />
+    
+
+<div>
+      {/* Invisible Image for Preloading */}
+      <div style={{ display: 'none' }}>
+        <Image src="/images/m2.png" alt="" layout="fill" objectFit="cover" />
+      </div>
+
+      {/* Div with Background Image */}
+      <div style={{
+        backgroundImage: `url(/images/m2.png)`,
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center', 
+        width: '800px',
+        height: '300px',
+        position: 'absolute',
+        right: '-300px',
+      }}
+      className="border-azure border-b-4 "
+      >
+      </div>
+    </div>
+
 
               </div>
 
