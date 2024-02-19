@@ -4,7 +4,7 @@ import Hero from "../components/hero";
 import Intro from "../components/intro";
 import Footer from "../components/footer";
 import Layout from "../components/layout";
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import LoadMore from '../components/loadMorePosts'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

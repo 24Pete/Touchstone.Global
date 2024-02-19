@@ -1,6 +1,6 @@
 'use client';
 import { useEffect } from 'react';
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import Link from "next/link";
 export default function Intro() {
 
@@ -14,12 +14,10 @@ export default function Intro() {
    
        <Link
        href={`/`}
-      >
-      
-      <Image
+      ><Image
       src="/images/logo-touchstone.svg"
-      width="0"
-      height="0"
+      width="200"
+      height="30"
       alt="Touchstone Logo"
       className="w-[200px] h-auto"
     />

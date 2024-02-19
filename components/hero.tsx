@@ -32,9 +32,9 @@ export default function Hero() {
  <div className="-mt-[50px]" >
   <p className="text-2xl lg:pr-14 text-white font-light" data-scroll  data-scroll-speed="4" data-scroll-delay="0.30">As business transformation specialists, we engage with principal investors, key stakeholders and senior leadership teams to unlock exponential value creation opportunities.</p>
   
-  <p className="text-2xl text-white font-light lg:pr-24" data-scroll  data-scroll-speed="4" data-scroll-delay="0.20">Taking a business through a dedicated turnaround, a shift in vision, or an overall business strategy review is undeniably challenging, Touchstone will Engage, Enable and Empower you, with our “Six Steps of Leadership” methodology.</p>
+  <p className="text-2xl text-white font-light lg:pr-24 mb-20" data-scroll  data-scroll-speed="4" data-scroll-delay="0.20">Taking a business through a dedicated turnaround, a shift in vision, or an overall business strategy review is undeniably challenging, Touchstone will Engage, Enable and Empower you, with our “Six Steps of Leadership” methodology.</p>
   
-  <a href="/learn-more" className="bg-azure pt-3 pb-3 pl-6 pr-6 font-bold text-dusk text-lg uppercase inline-block mt-4 mb-20" data-scroll data-scroll-speed="4" data-scroll-delay="0.11"> Find Out More</a>
+  <a href="/learn-more" className="hidden bg-azure pt-3 pb-3 pl-6 pr-6 font-bold text-dusk text-lg uppercase inline-block mt-4 mb-20" data-scroll data-scroll-speed="4" data-scroll-delay="0.11"> Find Out More</a>
   </div>
   </div>
       </div>

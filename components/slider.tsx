@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import Container from "../components/container";
-import Image from 'next/image'
+import Image from "next/legacy/image"
 export default function App() {
   const [nav1, setNav1] = useState();
   const [nav2, setNav2] = useState();
@@ -17,7 +17,7 @@ export default function App() {
                 <div className='hexagonal-cont2'>     
                        <Image
       src="/images/headshots/jamie-sq.png"
-      width={247}
+      width={300}
       height={284}
       alt="Touchstone Logo"
       className='hexagonalImg2'

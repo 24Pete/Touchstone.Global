@@ -1,7 +1,7 @@
 import Container from "./container";
 import Contact from "./cf7";
 import Year from "./year";
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 export default function Footer() {
   return (
@@ -29,7 +29,7 @@ export default function Footer() {
               </div>
               <div className="col-span-1 tar">
              <a href="tel:+442039241560" className="font-light text-[18px] text-dusk  inline-block"> 0203 924 1560 </a>
-             <a href="https://linkedin.com" className="font-light text-[18px] text-dusk pt-0 inline-block"> <Image
+             <a href="https://www.linkedin.com/company/touchstone-global/" className="font-light text-[18px] text-dusk pt-0 inline-block" target="blank"> <Image
       src="/images/linkedin.svg"
       width={30}
       height={30}

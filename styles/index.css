@@ -98,7 +98,7 @@ body:has(dialog[open]) {
 .hexagonal-cont2 {
   clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
   background-color: #6BC8C4;
-  height: 300px;
+  height: 350px;
   display: flex; 
   align-items: center; 
   justify-content: center; 
