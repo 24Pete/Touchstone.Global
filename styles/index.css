@@ -103,17 +103,17 @@ body:has(dialog[open]) {
   background-color: #6BC8C4;
 }
 .mountains-box  {
-  background-image: url('/images/mountains-bg.png');
+  background-image: url('/images/mountains-bg.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
 .after-sticky {
-  background-image: url('/images/hills.png');
+  background-image: url('/images/hills.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
 .touchstone-collective {
-  background-image: url('/images/montblanc.png');
+  background-image: url('/images/montblanc.webp');
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 100px;
