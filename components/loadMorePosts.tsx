@@ -1,8 +1,5 @@
 import { useQuery, gql } from "@apollo/client";
 import Link from "next/link";
-import CoverImage from "./cover-image";
-import Image from 'next/image'
- 
 
 const GET_POSTS = gql`
   query getPosts($first: Int!, $after: String) {

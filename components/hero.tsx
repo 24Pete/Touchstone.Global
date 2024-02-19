@@ -1,6 +1,4 @@
 'use client';
-import { useEffect } from 'react';
-import Image from 'next/image';
 import StickyLogo from './stickylogo'
 
 export default function Hero() {
