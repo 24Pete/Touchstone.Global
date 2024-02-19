@@ -1,5 +1,6 @@
 import { useQuery, gql } from "@apollo/client";
 import Link from "next/link";
+import Image from 'next/image';
 
 const GET_POSTS = gql`
   query getPosts($first: Int!, $after: String) {
@@ -67,9 +68,26 @@ export default function LoadMorePost(
       
 
           
-<div style={{ backgroundImage: `url(${post.featuredImage?.node.sourceUrl})`}} className="featured-image">
 
-  </div>
+           
+  <div>
+      {/* Invisible Image for Preloading */}
+      <div style={{ display: 'none' }}>
+        <Image src={post.featuredImage?.node.sourceUrl} alt="" layout="fill" objectFit="cover" />
+      </div>
+
+      {/* Div with Background Image */}
+      <div style={{
+        backgroundImage: `url(${post.featuredImage?.node.sourceUrl})`,
+        backgroundSize: 'cover', // Ensures the background image covers the div
+        backgroundPosition: 'center', // Centers the background image
+      }}
+      
+      className="featured-image"
+      >
+      </div>
+    </div>
+
            
 
           <span className="p-5">
