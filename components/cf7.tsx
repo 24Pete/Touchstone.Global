@@ -22,9 +22,9 @@ export default class Contact extends React.Component <any, any> {
     e.preventDefault();
 
     const formData = {
-      'your-name': this.state.name,
-      'your-email': this.state.email,
-      'your-position': this.state.position,
+      'your-name': this.state?.name,
+      'your-email': this.state?.email,
+      'your-position': this.state?.position,
     };
 
     axios
