@@ -2,6 +2,7 @@ import Head from "next/head";
 import Slick from "../components/slider";
 import Hero from "../components/hero";
 import Intro from "../components/intro";
+import Footer from "../components/footer";
 import Layout from "../components/layout";
 import Image from 'next/image'
 import LoadMore from '../components/loadMorePosts'
@@ -162,7 +163,7 @@ export default function Index() {
         </div>
       </section>
      
- 
+      <Footer/>
     </>
 
 
