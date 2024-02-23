@@ -18,6 +18,9 @@ html.has-scroll-smooth {
 	backface-visibility: hidden;
 	transform: translateZ(0);
 }
+body {
+  overflow: auto;
+}
 
 [data-load-container] {
 	position: fixed;
@@ -60,9 +63,9 @@ html.has-scroll-smooth {
 body {
   overflow-x: hidden;
 }
-body:has(dialog[open]) {
-  overflow-y: hidden; 
- 
+:root:has(dialog[open]) {
+  overflow: hidden; 
+ max-height: 100vh;
 
 }
 .confirmation-message {

@@ -6,25 +6,62 @@ export default function App() {
   const [nav1, setNav1] = useState();
   const [nav2, setNav2] = useState();
 
+
+  var settings = {
+    responsive: [
+      {
+        breakpoint: 1424,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+      
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+      
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
+
   return (
 
   <div>
      
-      <Slider className="bg-dusk p-10 mb-4" asNavFor={nav2} ref={(slider1) => setNav1(slider1)}   arrows={false}>
+      <Slider className="bg-dusk p-10 mb-4" asNavFor={nav2} ref={(slider1) => setNav1(slider1)}   arrows={false} >
         <div>
             <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+              
                        <Image
-      src="/images/headshots/jamie-sq.png"
+      src="/images/headshots/jamie.png"
       width={300}
-      height={284}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg2'
+
     />
     
     
-    </div>
+  
 
 
 
@@ -39,17 +76,16 @@ export default function App() {
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+              
                        <Image
-      src="/images/headshots/stew-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/stew.png"
+      width={300}
+      height={300}
       alt="Stewart Headshot"
-      className='hexagonalImg2'
+  
     />
     
-    
-    </div>
+
 
 
 
@@ -65,17 +101,15 @@ export default function App() {
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+                
                        <Image
-      src="/images/headshots/john-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/john.png"
+      width={300}
+      height={300}
       alt="John Headshot"
-      className='hexagonalImg2'
+
     />
     
-    
-    </div>
 
 
 
@@ -93,19 +127,16 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+           
                        <Image
-      src="/images/headshots/vashti-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/vashti.png"
+      width={300}
+      height={300}
       alt="Vashti Headshot"
-      className='hexagonalImg2'
+    
     />
     
-    
-    </div>
-
-
+ 
 
                 </div>
                 <div className='col-span-9 pl-10'>
@@ -118,21 +149,15 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+             
                        <Image
-      src="/images/headshots/liz-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/liz.png"
+      width={300}
+      height={300}
       alt="Liz Headshot"
-      className='hexagonalImg2'
+   
     />
-    
-    
-    </div>
-
-
-
-
+  
                 </div>
                 <div className='col-span-9 pl-10'>
           <h3 className='text-[34px] text-azure mb-0 leading-tight'>Liz</h3>
@@ -145,17 +170,17 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+               
                        <Image
-      src="/images/headshots/ross-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/ross.png"
+      width={300}
+      height={300}
       alt="Ross Headshot"
-      className='hexagonalImg2'
+
     />
     
     
-    </div>
+
 
 
 
@@ -172,18 +197,17 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+                   
                        <Image
-      src="/images/headshots/vicky-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/victoria.png"
+      width={300}
+      height={300}
       alt="Victoria Headshot"
-      className='hexagonalImg2'
+
     />
     
     
-    </div>
-
+  
 
 
 
@@ -199,17 +223,15 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+       
                        <Image
-      src="/images/headshots/dave-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/dave.png"
+      width={300}
+      height={300}
       alt="Dave Headshot"
-      className='hexagonalImg2'
     />
     
     
-    </div>
 
 
 
@@ -225,17 +247,17 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+              
                        <Image
-      src="/images/headshots/nafeesa-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/nafeesa.png"
+      width={300}
+      height={300}
       alt="Nafeesa Headshot"
-      className='hexagonalImg2'
+
     />
     
     
-    </div>
+  
 
                 </div>
                 <div className='col-span-9 pl-10'>
@@ -249,17 +271,15 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+                    
                        <Image
-      src="/images/headshots/steve-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/steve.png"
+      width={300}
+      height={300}
       alt="Steve Headshot"
-      className='hexagonalImg2'
+
     />
     
-    
-    </div>
 
 
 
@@ -274,17 +294,16 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+                 
                        <Image
-      src="/images/headshots/sharon-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/sharon.png"
+      width={300}
+      height={300}
       alt="Sharon Headshot"
-      className='hexagonalImg2'
     />
     
     
-    </div>
+ 
 
 
 
@@ -300,17 +319,17 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+                
                        <Image
-      src="/images/headshots/helen-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/helen.png"
+      width={300}
+      height={300}
       alt="Helen Headshot"
-      className='hexagonalImg2'
+  
     />
     
     
-    </div>
+ 
 
 
 
@@ -327,17 +346,17 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+                   
                        <Image
-      src="/images/headshots/johnathan-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/johnathan.png"
+      width={300}
+      height={300}
       alt="Johnathan Headshot"
-      className='hexagonalImg2'
+
     />
     
     
-    </div>
+  
 
 
 
@@ -352,17 +371,16 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+          
                        <Image
-      src="/images/headshots/chris-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/chris.png"
+      width={300}
+      height={300}
       alt="Chris Headshot"
-      className='hexagonalImg2'
     />
     
     
-    </div>
+ 
 
 
                 </div>
@@ -377,17 +395,17 @@ John believes that strong relationships based on love and trust are a keystone m
         <div>
         <div className='grid grid-cols-12'>
                 <div className='col-span-3'>
-                <div className='hexagonal-cont2'>     
+              
                        <Image
-      src="/images/headshots/jeremy-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/jeremy.png"
+      width={300}
+      height={300}
       alt="Jeremy Headshot"
-      className='hexagonalImg2'
+
     />
     
     
-    </div>
+ 
 
 
                 </div>
@@ -395,6 +413,66 @@ John believes that strong relationships based on love and trust are a keystone m
           <h3 className='text-[34px] text-azure mb-0 leading-tight'>Jeremy</h3>
           <h4 className='text-[30px] text-azure mb-4 leading-tight'> Legal</h4>
           <p className='text-[17px] text-azure font-light'> Jeremy is a highly versatile lawyer with a background across a number of industries (having worked in senior inhouse legal roles in Packaging, Electronics & Automation and Energy businesses in his career to date). He has a broad range of M&A (UK and international) and commercial experience and is known for both his pragmatic and can-do attitude. Jeremy enjoys a challenge and relishes rolling up his sleeves and getting to know and understand the businesses he supports or the projects he is working on. Jeremy is also an excellent communicator who speaks and writes in plain English – a very important attribute for a business lawyer!
+
+
+</p>
+         </div>
+          </div>
+        </div>
+
+
+
+        <div>
+        <div className='grid grid-cols-12'>
+                <div className='col-span-3'>
+              
+                       <Image
+      src="/images/headshots/robin.png"
+      width={300}
+      height={300}
+      alt="Robin Headshot"
+
+    />
+    
+    
+ 
+
+
+                </div>
+                <div className='col-span-9 pl-10'>
+          <h3 className='text-[34px] text-azure mb-0 leading-tight'>Robin</h3>
+          <h4 className='text-[30px] text-azure mb-4 leading-tight'> Thought Leader</h4>
+          <p className='text-[17px] text-azure font-light'> Robin is an inspirational thought leader and fearless coach dedicated to unlocking the full potential of CEOs, business owners and senior professionals. Backed by 25 years of experience as a seasoned leader andqualified management consultant specialising in organisational and cultural change. Robin has become a powerful catalyst for business transformation across various industries, including Technology, Legal, Healthcare, Marketing, Finance and Education.
+
+
+</p>
+         </div>
+          </div>
+        </div>
+
+
+
+        <div>
+        <div className='grid grid-cols-12'>
+                <div className='col-span-3'>
+              
+                       <Image
+      src="/images/headshots/nick.png"
+      width={300}
+      height={300}
+      alt="Nick Headshot"
+
+    />
+    
+    
+ 
+
+
+                </div>
+                <div className='col-span-9 pl-10'>
+          <h3 className='text-[34px] text-azure mb-0 leading-tight'>Nick</h3>
+          <h4 className='text-[30px] text-azure mb-4 leading-tight'> Master Philosopher</h4>
+          <p className='text-[17px] text-azure font-light'> Nick brings over two decades of experience in guiding and supporting organisations through the strategic decision-making process. Throughout this time, he has honed his expertise in growth acceleration, M&A, and due diligence support. All of which, he combines together to help organisations make better and quicker decisions when they really count. Renowned for his ability to gather and analyse hard to find evidence and complex data sets, Nick ensures that his clients are equipped with precise information to address even the most challenging of inquiries.
 
 
 </p>
@@ -410,210 +488,232 @@ John believes that strong relationships based on love and trust are a keystone m
         slidesToShow={5}
         swipeToSlide={true}
         focusOnSelect={true}
-        
+        {...settings}
       >
         <div className='px-2'>
-          <div className='hexagonal-cont'>     
+        
                        <Image
-      src="/images/headshots/jamie-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/jamie.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
+   
     />
     
     
-    </div>
+
         </div>
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+      
                        <Image
-      src="/images/headshots/stew-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/stew.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
+     
     />
     
     
-    </div>
         </div>
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+     
                        <Image
-      src="/images/headshots/john-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/john.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
+
     />
     
     
-    </div>
+   
         </div>
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+  
                        <Image
-      src="/images/headshots/vashti-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/vashti.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
+
     />
     
     
-    </div>
+  
         </div>
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+        
                        <Image
-      src="/images/headshots/liz-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/liz.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
+
     />
     
     
-    </div>
+ 
         </div>
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+         
                        <Image
-      src="/images/headshots/ross-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/ross.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
     />
     
     
-    </div>
+   
         </div>
       
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+       
                        <Image
-      src="/images/headshots/vicky-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/victoria.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
+   
     />
     
     
-    </div>
+  
         </div>
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+         
                        <Image
-      src="/images/headshots/dave-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/dave.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
+     
     />
     
     
-    </div>
+   
         </div>
 
 
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+       
                        <Image
-      src="/images/headshots/nafeesa-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/nafeesa.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
     />
     
     
-    </div>
+   
         </div>
 
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+  
                        <Image
-      src="/images/headshots/steve-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/steve.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
+ 
     />
     
     
-    </div>
+  
         </div>
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+ 
                        <Image
-      src="/images/headshots/sharon-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/sharon.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
     />
     
     
-    </div>
+  
         </div>
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+       
                        <Image
-      src="/images/headshots/helen-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/helen.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
+  
     />
     
     
-    </div>
+
         </div>
 
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+          
                        <Image
-      src="/images/headshots/johnathan-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/johnathan.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
     />
     
     
-    </div>
+  
         </div>
 
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+         
                        <Image
-      src="/images/headshots/chris-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/chris.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
     />
     
     
-    </div>
+  
         </div>
 
         <div className='px-2'>
-        <div className='hexagonal-cont'>     
+
                        <Image
-      src="/images/headshots/jeremy-sq.png"
-      width={247}
-      height={284}
+      src="/images/headshots/jeremy.png"
+      width={300}
+      height={300}
       alt="Touchstone Logo"
-      className='hexagonalImg'
+
     />
     
     
-    </div>
+ 
         </div>
+
+        <div className='px-2'>
+
+<Image
+src="/images/headshots/robin.png"
+width={300}
+height={300}
+alt="Touchstone Logo"
+
+/>
+
+
+
+</div>
+
+<div className='px-2'>
+
+<Image
+src="/images/headshots/nick.png"
+width={300}
+height={300}
+alt="Touchstone Logo"
+
+/>
+
+
+
+</div>
       </Slider>
       </div>
 

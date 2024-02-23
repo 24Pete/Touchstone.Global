@@ -68,7 +68,7 @@ export default function Footer() {
 
         </div>
    
-<dialog id="my_modal_1" className="modal overflow-scroll mx-[200px] rounded-md	">
+<dialog id="my_modal_1" className="modal  mx-[200px] rounded-md overscroll-none h-100vh	">
 
   <div className="modal-box p-5 bg-dusk relative">
 
