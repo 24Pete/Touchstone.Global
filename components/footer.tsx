@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="col-span-1">
              <h3 className="font-medium text-[38px] text-dusk">Lets Connect </h3>
               </div>
-              <div className="col-span-1 tar">
+              <div className=" col-span-2 lg:col-span-1 lg:tar">
               <p className="font-light text-[18px] text-dusk"><span className="block">Stay up to date with our latest news and</span>
               opportunities with Touchstone
               </p>
@@ -25,16 +25,16 @@ export default function Footer() {
          <Contact/>
                 </div>
                 <div className="col-span-1">
-             <a href="mailto:engage@touchstone.global" className="font-light text-[18px] text-dusk">engage@toucshtone.global</a>
+             <a href="mailto:engage@touchstone.global" className="font-light text-[18px]  text-dusk">engage@toucshtone.global</a>
               </div>
               <div className="col-span-1 tar">
-             <a href="tel:+442039241560" className="font-light text-[18px] text-dusk  inline-block"> 0203 924 1560 </a>
-             <a href="https://www.linkedin.com/company/touchstone-global/" className="font-light text-[18px] text-dusk pt-0 inline-block" target="blank"> <Image
+             <a href="tel:+442039241560" className="font-light text-[18px] text-dusk  inline-block -mt-2 relative -top-2 pr-2"> 0203 924 1560 </a>
+             <a href="https://www.linkedin.com/company/touchstone-global/" className="font-light text-[18px] text-dusk pt-2 inline-block" target="blank"> <Image
       src="/images/linkedin.svg"
       width={30}
       height={30}
       alt="+24 Logo"
-      className="inline-block ml-2 -mt-1"
+      className="inline-block ml-2 "
     />  </a>
               </div>
 
@@ -47,17 +47,17 @@ export default function Footer() {
       </div>
 
       <Container>
-        <div className="grid grid-cols-2 ">
+        <div className="grid grid-cols-2 pt-10 ">
           <div className="col-span-1">
             <Year />
-          <button className="pr-6 pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_1') as HTMLDialogElement).showModal()}>Privacy Policy</button>
-          <button className="pr-4 pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_2') as HTMLDialogElement).showModal()}>Cookies</button>
+          <button className="pr-6 lg:pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_1') as HTMLDialogElement).showModal()}>Privacy Policy</button>
+          <button className="pr-4  lg:pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_2') as HTMLDialogElement).showModal()}>Cookies</button>
 
           </div>
 
-          <div className="col-span-1 tar pt-10 pb-10">
-
-           <a href="https://plus24.agency" target="_blank" className="text-[18px] text-white"> Built By         <Image
+          <div className="col-span-1 tar pt-4 pb-10">
+<span className="relative -top-2 text-[18px] text-white"> Built By   </span>
+           <a href="https://plus24.agency" target="_blank" className="text-[18px] text-white">       <Image
       src="/images/+24.svg"
       width={30}
       height={30}
@@ -68,7 +68,7 @@ export default function Footer() {
 
         </div>
    
-<dialog id="my_modal_1" className="modal  mx-[200px] rounded-md overscroll-none h-100vh	">
+<dialog id="my_modal_1" className="modal  lg:mx-[200px] rounded-md overscroll-none h-100vh	">
 
   <div className="modal-box p-5 bg-dusk relative">
 
@@ -192,7 +192,7 @@ Our Site may provide links to websites or other online platforms operated by thi
 <p className="py-4 text-white" >Should you have any questions about our privacy practices or this Privacy Policy, or if you would like to exercise any of the rights available to you, please call 0203 924 1560 or email us at engage@touchstone.global or contact us at Pool House Farm Church Lane, Pool In Wharfedale, Otley, BFP, LS21 1FB, United Kingdom. 
 </p>
 
-    <div className="modal-action fixed top-8 right-56 bg-azure w-[40px] h-[40px] rounded-full text-center">
+    <div className="modal-action fixed top-8 right-12 lg:right-56 bg-azure w-[40px] h-[40px] rounded-full text-center">
       <form method="dialog" >
         {/* if there is a button in form, it will close the modal */}
         <button className="btn text-lg text-white align-middle">  <span className="text-3xl text-white ">x</span> </button>
@@ -204,7 +204,7 @@ Our Site may provide links to websites or other online platforms operated by thi
 </dialog>
 
 
-<dialog id="my_modal_2" className="modal overflow-scroll mx-[200px] rounded-md">
+<dialog id="my_modal_2" className="modal overflow-scroll lg:mx-[200px] rounded-md">
   <div className="modal-box p-5 bg-dusk relative">
     
   <h3 className="font-bold text-2xl text-white font-light">Cookie Policy</h3>
@@ -239,7 +239,7 @@ Our Site may provide links to websites or other online platforms operated by thi
     <p className="py-4 text-white" >Aliquam erat volutpat. Vivamus dapibus bibendum nisi a volutpat. Donec ut velit orci. Mauris vitae hendrerit dui. Suspendisse egestas est magna, a rhoncus velit varius eget. Nulla tincidunt volutpat fermentum. Curabitur vitae velit rutrum, iaculis purus eu, semper tellus. Morbi volutpat ornare eros sit amet commodo. Sed eu condimentum lorem. Aliquam aliquam cursus turpis, sit amet rutrum urna. </p>
     
     
-    <div className="modal-action fixed top-8 right-56 bg-azure w-[40px] h-[40px] rounded-full text-center">
+    <div className="modal-action fixed top-8 right-12 lg:right-56 bg-azure w-[40px] h-[40px] rounded-full text-center">
       <form method="dialog">
         {/* if there is a button in form, it will close the modal */}
         <button className="btn text-lg text-white align-middle">  <span className="text-3xl text-white ">x</span> </button>

@@ -62,7 +62,7 @@ export default class Contact extends React.Component <any, any> {
       
         <form onSubmit={this.onSubmit} className="mb-10 mt-10">
           <div className="grid grid-cols-2 mb-10">
-            <div className="col-span-1  mr-10">
+            <div className="col-span-2 lg:col-span-1  lg:mr-10">
               <input
                 placeholder="Your name"
                 type="text"
@@ -72,7 +72,7 @@ export default class Contact extends React.Component <any, any> {
                 className="w-full p-4 bg-transparent border-b border-b-dusk placeholder-dusk "
               />
             </div>
-            <div className="col-span-1">
+            <div className="col-span-2 lg:col-span-1">
               <input
                 placeholder="Your email"
                 type="text"
@@ -84,7 +84,7 @@ export default class Contact extends React.Component <any, any> {
             </div>
           </div>
           <div className="grid grid-cols-12">
-            <div className="col-span-10">
+            <div className="col-span-12 lg:col-span-10">
               <input
                 placeholder="Your Position"
                 type="text"
@@ -94,7 +94,7 @@ export default class Contact extends React.Component <any, any> {
                 className="w-full p-4 bg-transparent border-b border-b-dusk placeholder-dusk "
               />
             </div>
-            <div className="col-span-2">
+            <div className="col-span-12 mt-10 lg:mt-0 lg:col-span-2">
               <button type="submit" className="bg-dusk w-full p-4 text-azure font-bold text-lg pb-[13px]">
                 SUBMIT
               </button>

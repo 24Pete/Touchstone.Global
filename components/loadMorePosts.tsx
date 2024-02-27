@@ -61,7 +61,7 @@ export default function LoadMorePost(
           return (
             <div
               key={databaseId}
-              className="col-span-2 xl:col-span-1 bg-[#D9D9D9] "
+              className="col-span-4 md:col-span-2 xl:col-span-1 bg-[#D9D9D9] "
           >  
        
    

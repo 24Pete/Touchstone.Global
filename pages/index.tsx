@@ -49,7 +49,7 @@ export default function Index() {
             <div className="col-span-12 g:col-span-8 lg:col-start-4">
       <div className="lg:w-full w-full lg:h-[395px] bg-dusk lg:absolute">  </div>
               <div className="grid grid-cols-2 grid-child p-10 relative bg-dusk lg:bg-dusk"> 
-                <div className="col-span-1">
+                <div className="col-span-2 lg:col-span-1">
                     <Image
                     src="/images/tc-image.png"
                     width={400}
@@ -58,7 +58,7 @@ export default function Index() {
                     className="w-[90%] h-auto"
                   />
                 </div>
-                <div className="col-span-1 pt-8">
+                <div className="col-span-2 lg:col-span-1 pt-8">
                   <p className="font-bold text-white text-xl mb-5">The Touchstone collective are seasoned world-class professionals, with decades of real-world business experience across multiple sectors, delivering exceptional results for our chosen partners.</p>
                   <p className="font-light text-white text-xl "> Our “Six Steps of Leadership” methodology forms the key foundation to empower you and your business with the right focused resources, enabling organisational goals to be accelerated.</p>
                 </div>
@@ -78,9 +78,9 @@ export default function Index() {
 
 
         <div className="grid grid-cols-12">
-          <div className="col-span-8 col-start-4">
+          <div className="col-span-12 lg:col-span-8 lg:col-start-4">
             <div className="grid grid-cols-2 grid-child"> 
-              <div className="col-span-1 pr-36 mb-10">
+              <div className=" col-span-2 lg:col-span-1 pr-36 lg:mb-10">
                 <h3 className="text-[38px] text-azure font-medium"> Engage</h3>
                 <p className="font-light text-white text-xl">From the outset Touchstone will develop a clear understanding of your business to ENGAGE with the relevant influencers to understand the challenges, the development opportunities and to form a true strategic value creation plan.</p>
               </div>
@@ -102,20 +102,20 @@ export default function Index() {
         position: 'absolute',
         right: '-300px',
       }}
-      className="border-azure border-b-4 "
+      className="border-azure border-b-4 hidden lg:visible "
       >
       </div>
     </div>
 
               </div>
 
-              <div className="col-span-1"></div>
-              <div className="col-span-1 pl-36 mt-16">
+              <div className="col-span-2 lg:col-span-1"></div>
+              <div className="col-span-2 lg:col-span-1 lg:pl-36 lg:mt-16">
                 <h3 className="text-[38px] text-azure font-medium"> Enable</h3>
                 <p className="font-light text-white text-xl">The insightful experience and deep knowledge through the Touchstone collective, will ENABLE you to further develop your why and explore sustainable development opportunities formalised in a value creation plan.</p>
               </div>
               
-              <div className="col-span-1 pr-36 mt-10  ">
+              <div className="col-span-2 lg:col-span-1 lg:pr-36 mt-10  ">
                 <h3 className="text-[38px] text-azure font-medium"> Empower</h3>
                 <p className="font-light text-white text-xl">Touchstone delivers a formal foundation to EMPOWER your business to further develop and expand its reach to its fullest extent using your own resources with continued help, support and stewardship from the Touchstone collective.</p>
               </div>
@@ -140,7 +140,7 @@ export default function Index() {
         position: 'absolute',
         right: '-300px',
       }}
-      className="border-azure border-b-4 "
+      className="border-azure border-b-4 hidden lg:visible"
       >
       </div>
     </div>
@@ -160,9 +160,9 @@ export default function Index() {
 
       <section className="after-sticky py-20 mt-16">
       <div className="container mx-auto px-5 relative">
-        <div className="text-center px-[100px]">
+        <div className="text-center lg:px-[100px]">
 
-            <h3 className="text-[38px] italic font-medium text-dusk mb-10">“Touchstone, we are business transformation specialists, engaging with principal investors, key stakeholders and senior leadership teams to unlock exponential value creation opportunities”. </h3>
+            <h3 className="text-[24px] lg:text-[38px] italic font-medium text-dusk mb-10">“Touchstone, we are business transformation specialists, engaging with principal investors, key stakeholders and senior leadership teams to unlock exponential value creation opportunities”. </h3>
             <p className="text-[20px] text-dusk "> Jamie Tinsley</p>
             <p className="text-[20px] text-dusk ">  Founder & CEO at Touchstone</p>
 
@@ -178,7 +178,7 @@ export default function Index() {
 
 
       <section className="touchstone-collective pt-16">
-      <div className="container  mx-auto px-20 relative">
+      <div className="container  mx-auto px-10 lg:px-20 relative">
         <div className="text-center">
         <h3 className="font-bold text-[48px]  text-azure">TOUCHSTONE COLLECTIVE</h3>
         <p className="text-xl font-light text-white mt-4  mb-10"> Our mission is simple: to support you in navigating commercial and operational challenges. From business psychology, process and digital transformation to risk analysis, IT management, recruitment, development, and fostering innovative solutions.</p>
@@ -189,8 +189,8 @@ export default function Index() {
       </div>
 
       </section>
-      <section className="insights py-20">
-        <div className="container mx-auto px-20 relative">
+      <section className="insights py-10 lg:py-20">
+        <div className="container mx-auto px-10 lg:px-20 relative">
           <h3 className="text-[38px] text-azure font-medium mb-10"> Insights</h3>
         <LoadMore/>
         </div>
