@@ -471,7 +471,7 @@ John believes that strong relationships based on love and trust are a keystone m
                 </div>
                 <div className='col-span-12 lg:col-span-9 lg:pl-10'>
           <h3 className='text-[34px] text-azure mb-0 leading-tight'>Nick</h3>
-          <h4 className='text-[30px] text-azure mb-4 leading-tight'> Master Philosopher</h4>
+          <h4 className='text-[30px] text-azure mb-4 leading-tight'> Market-led Strategy Expert</h4>
           <p className='text-[17px] text-azure font-light'> Nick brings over two decades of experience in guiding and supporting organisations through the strategic decision-making process. Throughout this time, he has honed his expertise in growth acceleration, M&A, and due diligence support. All of which, he combines together to help organisations make better and quicker decisions when they really count. Renowned for his ability to gather and analyse hard to find evidence and complex data sets, Nick ensures that his clients are equipped with precise information to address even the most challenging of inquiries.
 
 
