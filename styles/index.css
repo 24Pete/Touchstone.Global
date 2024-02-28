@@ -19,7 +19,6 @@ html.has-scroll-smooth {
 	transform: translateZ(0);
 }
 body {
-
   overflow-x: hidden;
   max-width: 100dvw;
 }
@@ -47,7 +46,6 @@ body {
 
   }
 }
-
 .insights {
   background-image: url('/images/bg-logo.webp');
   background-size: 1000px;
@@ -55,16 +53,12 @@ body {
   background-position-x: 110%;
   background-position-y: top;
 }
-
 .slick-prev, .slick-next {
   background: transparent;
 }
 .slick-prev:before, .slick-next:before {
   color: #6BC8C4 !important;
 
-}
-body {
-  overflow-x: hidden;
 }
 :root:has(dialog[open]) {
   overflow: hidden; 
@@ -84,7 +78,6 @@ body {
   height: 95%;
   width: 95%;
   outline: 1px solid #6BC8C4;
-
 }
 .hexagonal-cont {
   clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
@@ -99,7 +92,6 @@ body {
   height: 95%;
   width: 95%;
   outline: 1px solid #6BC8C4 ;
-
 }
 .hexagonal-cont2 {
   clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
@@ -186,7 +178,6 @@ body {
 .wp-block-image .aligncenter > figcaption,
 .wp-block-image.is-resized > figcaption {
   @apply table-caption;
-
   caption-side: bottom;
 }
 
@@ -216,7 +207,6 @@ body {
 
 .wp-block-cover {
   @apply flex flex-wrap justify-center items-center bg-cover bg-center overflow-hidden;
-
   min-height: 430px;
 }
 
