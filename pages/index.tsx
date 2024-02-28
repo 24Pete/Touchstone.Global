@@ -79,12 +79,20 @@ export default function Index() {
 
         <div className="grid grid-cols-12">
           <div className="col-span-12 lg:col-span-8 lg:col-start-4">
-            <div className="grid grid-cols-2 grid-child"> 
-              <div className=" col-span-2 lg:col-span-1 pr-36 lg:mb-10">
+            <div className="grid grid-cols-12 grid-child"> 
+              <div className=" col-span-12 lg:col-span-5  lg:mb-10">
                 <h3 className="text-[38px] text-azure font-medium"> Engage</h3>
                 <p className="font-light text-white text-xl">From the outset Touchstone will develop a clear understanding of your business to ENGAGE with the relevant influencers to understand the challenges, the development opportunities and to form a true strategic value creation plan.</p>
               </div>
-              <div className="col-span-1 mb-10">
+
+              <div className="col-span-3 pt-[70px]">
+              <Image src="/images/t-down.svg" alt=""      width={400}
+                    height={300} />
+
+              </div>
+
+
+              <div className="col-span-3 mb-10">
 
               <div>
       {/* Invisible Image for Preloading */}
@@ -100,26 +108,37 @@ export default function Index() {
         width: '800px',
         height: '300px',
         position: 'absolute',
-        right: '-300px',
+        right: '-400px',
       }}
-      className="border-azure border-b-4 hidden lg:visible "
+      className="border-azure border-b-4 hidden lg:visible lg:block"
       >
       </div>
     </div>
 
               </div>
+              <div className="col-span-5"></div>
+              <div className="col-span-3 pt-[150px] px-[30px]">
+              <Image src="/images/t-left.svg"    width={300}
+                    height={200} />
 
-              <div className="col-span-2 lg:col-span-1"></div>
-              <div className="col-span-2 lg:col-span-1 lg:pl-36 lg:mt-16">
+              </div>
+              <div className="col-span-12 lg:col-span-4 lg:mt-16">
                 <h3 className="text-[38px] text-azure font-medium"> Enable</h3>
                 <p className="font-light text-white text-xl">The insightful experience and deep knowledge through the Touchstone collective, will ENABLE you to further develop your why and explore sustainable development opportunities formalised in a value creation plan.</p>
               </div>
+             
               
-              <div className="col-span-2 lg:col-span-1 lg:pr-36 mt-10  ">
+              <div className="col-span-12 lg:col-span-5  mt-10  ">
                 <h3 className="text-[38px] text-azure font-medium"> Empower</h3>
                 <p className="font-light text-white text-xl">Touchstone delivers a formal foundation to EMPOWER your business to further develop and expand its reach to its fullest extent using your own resources with continued help, support and stewardship from the Touchstone collective.</p>
               </div>
-              <div className="col-span-1 mt-10">
+
+              <div className="col-span-3 pt-[150px] px-[30px]">
+              <Image src="/images/t-up.svg" alt=""      width={400}
+                    height={300} />
+
+              </div>
+              <div className="col-span-3 mt-10">
 
 
     
@@ -138,9 +157,9 @@ export default function Index() {
         width: '800px',
         height: '300px',
         position: 'absolute',
-        right: '-300px',
+        right: '-400px',
       }}
-      className="border-azure border-b-4 hidden lg:visible"
+      className="border-azure border-b-4 hidden  lg:visible lg:block "
       >
       </div>
     </div>
