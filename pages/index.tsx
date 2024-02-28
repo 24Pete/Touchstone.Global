@@ -85,7 +85,7 @@ export default function Index() {
                 <p className="font-light text-white text-xl">From the outset Touchstone will develop a clear understanding of your business to ENGAGE with the relevant influencers to understand the challenges, the development opportunities and to form a true strategic value creation plan.</p>
               </div>
 
-              <div className="col-span-3 pt-[70px]">
+              <div className="col-span-3 pt-[70px] hidden lg:visible lg:block">
               <Image src="/images/t-down.svg" alt=""      width={400}
                     height={300} />
 
@@ -117,7 +117,7 @@ export default function Index() {
 
               </div>
               <div className="col-span-5"></div>
-              <div className="col-span-3 pt-[150px] px-[30px]">
+              <div className="col-span-3 pt-[150px] px-[30px] hidden lg:visible lg:block">
               <Image src="/images/t-left.svg"    width={300}
                     height={200} />
 
@@ -133,7 +133,7 @@ export default function Index() {
                 <p className="font-light text-white text-xl">Touchstone delivers a formal foundation to EMPOWER your business to further develop and expand its reach to its fullest extent using your own resources with continued help, support and stewardship from the Touchstone collective.</p>
               </div>
 
-              <div className="col-span-3 pt-[150px] px-[30px]">
+              <div className="col-span-3 pt-[150px] px-[30px] hidden lg:visible lg:block">
               <Image src="/images/t-up.svg" alt=""      width={400}
                     height={300} />
 
