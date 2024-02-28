@@ -20,6 +20,8 @@ html.has-scroll-smooth {
 }
 body {
   overflow: auto;
+  overflow-x: hidden;
+  max-width: 100dvw;
 }
 
 [data-load-container] {
@@ -42,6 +44,7 @@ body {
     text-rendering: optimizelegibility;
     text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
     scroll-behavior: smooth;
+
   }
 }
 
