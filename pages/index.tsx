@@ -35,7 +35,7 @@ export default function Index() {
         <div className=" container mx-auto px-5 relative">
           <div className="grid grid-cols-12">
             <div className=" col-span-12 lg:col-span-7 lg:col-start-4">
-              <h2 className="font-medium leading-tight text-[38px] pr-[165px] mb-10 text-dusk "> Unlocking exponential value with the Touchstone collective</h2>
+              <h2 className="font-medium leading-tight text-[38px] lg:pr-[165px] mb-10 text-dusk "> Unlocking exponential value with the Touchstone collective</h2>
               
          
 
@@ -122,7 +122,7 @@ export default function Index() {
                     height={200} />
 
               </div>
-              <div className="col-span-12 lg:col-span-4 lg:mt-16 enable-block">
+              <div className="col-span-12 lg:col-span-4 lg:mt-16 lg:enable-block">
                 <h3 className="text-[38px] text-azure font-medium"> Enable</h3>
                 <p className="font-light text-white text-xl">The insightful experience and deep knowledge through the Touchstone collective, will ENABLE you to further develop your why and explore sustainable development opportunities formalised in a value creation plan.</p>
               </div>
