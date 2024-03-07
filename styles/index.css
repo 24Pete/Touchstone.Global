@@ -109,18 +109,17 @@ body {
   background-color: #6BC8C4;
 }
 .mountains-box  {
-  background-image: url('/images/big-banner-min.webp');
+  background-image: url('/images/mountains-bg.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
 .after-sticky {
-  background-image: url('/images/little-bg-min.webp');
+  background-image: url('/images/hills.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 .touchstone-collective {
-  background-image: url('/images/sunset-bg-min.webp');
+  background-image: url('/images/montblanc.webp');
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 100px;
