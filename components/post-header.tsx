@@ -20,9 +20,7 @@ export default function PostHeader({
 <span className=" pb-5 inline-block text-dusk">
         Posted <Date dateString={date} />
         </span>
-        <span className="pb-5 inline-block text-dusk">
-          <Categories categories={categories} />
-          </span>
+       
 
          <h1 className="text-4xl text-dusk pb-10 "> {title} </h1>
       
