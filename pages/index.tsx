@@ -51,7 +51,7 @@ export default function Index() {
               <div className="grid grid-cols-2 grid-child p-10 relative bg-dusk lg:bg-dusk"> 
                 <div className="col-span-2 lg:col-span-1">
                     <Image
-                    src="/images/tc-image.png"
+                    src="/images/t-images.png"
                     width={400}
                     height={300}
                     alt="Touchstone National Park"
@@ -102,7 +102,7 @@ export default function Index() {
 
       {/* Div with Background Image */}
       <div style={{
-        backgroundImage: `url(/images/m1.png)`,
+        backgroundImage: `url(/images/t-images.png)`,
         backgroundSize: 'cover', 
         backgroundPosition: 'center', 
         width: '800px',
@@ -151,7 +151,7 @@ export default function Index() {
 
       {/* Div with Background Image */}
       <div style={{
-        backgroundImage: `url(/images/m2.png)`,
+        backgroundImage: `url(/images/t-images-2.png)`,
         backgroundSize: 'cover', 
         backgroundPosition: 'center', 
         width: '800px',
