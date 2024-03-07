@@ -152,9 +152,7 @@ export default function App() {
           <p className='text-[17px] text-azure font-light'> 
           As an Executive coach John believes that strong relationships based on love and
 trust are a keystone measure of success. Starting with a deep understanding and
-appreciation of yourself and extending to empathy and connection with others. John
-</p> <p className='text-[17px] text-azure font-light block pt-5'> 
-has been a trusted partner, mentor and executive life coach to top C-suite leaders,
+appreciation of yourself and extending to empathy and connection with others. John has been a trusted partner, mentor and executive life coach to top C-suite leaders,
 entrepreneurs and an advisor to industry-leading businesses in the UK, EU and USA
 for the last decade.
  </p>
@@ -445,9 +443,7 @@ for the last decade.
           <h4 className='text-[30px] text-azure mb-4 leading-tight'> PR</h4>
           <p className='text-[17px] text-azure font-light'> Chris is a proven communications specialist who has worked in the PR and digital
 marketing space for over 23 years across a diverse range of corporate businesses.
-His results-focused approach is driven by his passion for working with brands to
-</p> <p className='text-[17px] text-azure font-light  block pt-5'>
-understand their challenges, objectives and market position, in order to devise
+His results-focused approach is driven by his passion for working with brands to understand their challenges, objectives and market position, in order to devise
 strategies and campaigns that deliver a tangible return on investment. He prides
 himself on being a channel agnostic thinker, in order to provide the right marketing
 solution for clients, whether they’re looking to build a brand or simply drive increased

@@ -65,6 +65,9 @@ body {
  max-height: 100vh;
 
 }
+.slick-prev:before, .slick-next:before {
+font-size: 30px;
+}
 .confirmation-message {
   background-color: #17293A;
   color: #6BC8C4;
@@ -127,6 +130,13 @@ body {
 .modal::backdrop {
   background-color: #6bc8c36d;
   overflow: hidden;
+}
+.enable-block {
+  min-width: 491px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 20px;
 }
 .tar {
   text-align: right

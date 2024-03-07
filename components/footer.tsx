@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="bg-azure">
             <div className="grid grid-cols-2">
               <div className="col-span-1">
-             <h3 className="font-medium text-[38px] text-dusk">Lets Connect </h3>
+             <h3 className="font-medium text-[38px] text-dusk">Let's Connect </h3>
               </div>
               <div className=" col-span-2 lg:col-span-1 lg:tar">
               <p className="font-light text-[18px] text-dusk"><span className="block">Stay up to date with our latest news and</span>
@@ -48,7 +48,7 @@ export default function Footer() {
 
       <Container>
         <div className="grid grid-cols-2 pt-10 ">
-          <div className="col-span-1">
+          <div className="col-span-1 -top-4 relative">
             <Year />
           <button className="pr-6 lg:pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_1') as HTMLDialogElement).showModal()}>Privacy Policy</button>
           <button className="pr-4  lg:pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_2') as HTMLDialogElement).showModal()}>Cookies</button>

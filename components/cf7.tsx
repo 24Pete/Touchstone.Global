@@ -86,7 +86,7 @@ export default class Contact extends React.Component <any, any> {
           <div className="grid grid-cols-12">
             <div className="col-span-12 lg:col-span-10">
               <input
-                placeholder="Your Position"
+                placeholder="Your position"
                 type="text"
                 name="position"
                 value={this.state.position}

@@ -51,7 +51,7 @@ export default function Index() {
               <div className="grid grid-cols-2 grid-child p-10 relative bg-dusk lg:bg-dusk"> 
                 <div className="col-span-2 lg:col-span-1">
                     <Image
-                    src="/images/t-images.png"
+                    src="/images/sunset-bg-min.webp"
                     width={400}
                     height={300}
                     alt="Touchstone National Park"
@@ -122,7 +122,7 @@ export default function Index() {
                     height={200} />
 
               </div>
-              <div className="col-span-12 lg:col-span-4 lg:mt-16">
+              <div className="col-span-12 lg:col-span-4 lg:mt-16 enable-block">
                 <h3 className="text-[38px] text-azure font-medium"> Enable</h3>
                 <p className="font-light text-white text-xl">The insightful experience and deep knowledge through the Touchstone collective, will ENABLE you to further develop your why and explore sustainable development opportunities formalised in a value creation plan.</p>
               </div>
