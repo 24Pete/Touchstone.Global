@@ -8,6 +8,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
       <link rel="stylesheet" href="https://use.typekit.net/cpd3mbf.css"/>
+      <link rel="shortcut icon" href="favicon.ico" />
       </Head>
       <body className="bg-dusk">
   

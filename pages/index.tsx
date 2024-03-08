@@ -19,7 +19,7 @@ export default function Index() {
     <>
       <Head>
         <title>{`Touchstone - Engage, Enable, Empower`}</title>
-   
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
 
         <Intro />
@@ -124,7 +124,8 @@ export default function Index() {
               </div>
               <div className="col-span-12 lg:col-span-4 lg:mt-16 lg:enable-block">
                 <h3 className="text-[38px] text-azure font-medium"> Enable</h3>
-                <p className="font-light text-white text-xl">The insightful experience and deep knowledge through the Touchstone collective, will ENABLE you to further develop your why and explore sustainable development opportunities formalised in a value creation plan.</p>
+                <p className="font-light text-white text-xl">The insightful experience and deep knowledge of the Touchstone collective will ENABLE you, further develop your why and explore sustainable development opportunities, supported by a formalised value creation plan.
+</p>
               </div>
              
               
