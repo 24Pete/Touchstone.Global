@@ -19,7 +19,7 @@ export default function Index() {
     <>
       <Head>
         <title>{`Touchstone - Engage, Enable, Empower`}</title>
-        <link rel="shortcut icon" href="/favicon.ico" />
+
       </Head>
 
         <Intro />
