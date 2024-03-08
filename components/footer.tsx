@@ -51,7 +51,7 @@ export default function Footer() {
           <div className="col-span-2 lg:col-span-1  -top-4 relative">
             <Year />
           <button className="pr-6 lg:pt-10  text-[18px] font-light text-white block lg:inline-block pb-0 lg:pb-10" onClick={()=>(document.getElementById('my_modal_1') as HTMLDialogElement).showModal()}>Privacy Policy</button>
-          <button className="pr-4  lg:pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_2') as HTMLDialogElement).showModal()}>Cookies</button>
+
 
           </div>
 
@@ -214,49 +214,6 @@ Our Site may provide links to websites or other online platforms operated by thi
 </dialog>
 
 
-<dialog id="my_modal_2" className="modal overflow-scroll lg:mx-[200px] rounded-md">
-  <div className="modal-box p-5 bg-dusk relative">
-    
-  <h3 className="font-bold text-2xl text-white font-light">Cookie Policy</h3>
-    <p className="py-4 text-white" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at feugiat libero, placerat ornare nulla. Mauris interdum purus quis quam consequat eleifend. Nunc turpis mauris, consequat sit amet auctor nec, porta vitae sapien. Cras cursus justo convallis, placerat dui eget, laoreet est. Proin vestibulum at orci at faucibus. Suspendisse vitae orci non quam auctor efficitur et ac tortor. Nulla id sapien sit amet velit posuere pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed tristique tellus vel odio feugiat vehicula. Nunc scelerisque lorem mollis quam posuere, id accumsan diam tristique. Donec eget sapien id ex luctus tempus at eget metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean porta urna lacinia, tristique mi sed, faucibus lacus. </p>
-
-    <p className="py-4 text-white" >Donec nisl dui, condimentum quis luctus eget, pretium nec nibh. In hac habitasse platea dictumst. Suspendisse dolor nulla, aliquam accumsan consectetur in, bibendum at tellus. Duis varius sit amet neque nec commodo. Aenean non iaculis ipsum. Curabitur sed sollicitudin neque. Pellentesque nec dolor eu massa malesuada lacinia a volutpat magna. Vivamus ac urna dictum, ultricies turpis elementum, varius dolor. Phasellus mi augue, placerat dictum ultrices sed, rutrum a justo. In ultrices velit vitae purus ornare, eu laoreet turpis cursus. Curabitur maximus tincidunt blandit. Fusce sit amet dignissim odio. Donec augue erat, dignissim in mi sed, iaculis cursus dolor. </p>
-
-    <p className="py-4 text-white" >Aliquam et sagittis ligula. Fusce eleifend erat nibh, quis bibendum turpis scelerisque vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc tellus massa, volutpat vitae imperdiet in, blandit in magna. Curabitur in convallis nunc. Fusce tristique laoreet mi. Aliquam sit amet imperdiet libero, quis consectetur mauris. Vestibulum condimentum non sapien vitae accumsan. Suspendisse potenti.</p>
-
-    <p className="py-4 text-white" >Morbi ultrices, eros eget porta commodo, massa nisl sodales odio, sit amet lacinia risus massa in tortor. Duis vitae vulputate metus. Cras faucibus sapien ante, semper facilisis lectus facilisis ac. Praesent aliquet quam at nulla volutpat, in commodo ex tincidunt. Mauris id mi sit amet nulla iaculis convallis. Integer in semper leo. Sed turpis sapien, congue quis tempus ut, auctor dignissim tortor. Donec sed semper metus.</p>
-
-    <p className="py-4 text-white" >Aliquam erat volutpat. Vivamus dapibus bibendum nisi a volutpat. Donec ut velit orci. Mauris vitae hendrerit dui. Suspendisse egestas est magna, a rhoncus velit varius eget. Nulla tincidunt volutpat fermentum. Curabitur vitae velit rutrum, iaculis purus eu, semper tellus. Morbi volutpat ornare eros sit amet commodo. Sed eu condimentum lorem. Aliquam aliquam cursus turpis, sit amet rutrum urna. </p>
-    
-    <p className="py-4 text-white" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at feugiat libero, placerat ornare nulla. Mauris interdum purus quis quam consequat eleifend. Nunc turpis mauris, consequat sit amet auctor nec, porta vitae sapien. Cras cursus justo convallis, placerat dui eget, laoreet est. Proin vestibulum at orci at faucibus. Suspendisse vitae orci non quam auctor efficitur et ac tortor. Nulla id sapien sit amet velit posuere pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed tristique tellus vel odio feugiat vehicula. Nunc scelerisque lorem mollis quam posuere, id accumsan diam tristique. Donec eget sapien id ex luctus tempus at eget metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean porta urna lacinia, tristique mi sed, faucibus lacus. </p>
-
-    <p className="py-4 text-white" >Donec nisl dui, condimentum quis luctus eget, pretium nec nibh. In hac habitasse platea dictumst. Suspendisse dolor nulla, aliquam accumsan consectetur in, bibendum at tellus. Duis varius sit amet neque nec commodo. Aenean non iaculis ipsum. Curabitur sed sollicitudin neque. Pellentesque nec dolor eu massa malesuada lacinia a volutpat magna. Vivamus ac urna dictum, ultricies turpis elementum, varius dolor. Phasellus mi augue, placerat dictum ultrices sed, rutrum a justo. In ultrices velit vitae purus ornare, eu laoreet turpis cursus. Curabitur maximus tincidunt blandit. Fusce sit amet dignissim odio. Donec augue erat, dignissim in mi sed, iaculis cursus dolor. </p>
-
-    <p className="py-4 text-white" >Aliquam et sagittis ligula. Fusce eleifend erat nibh, quis bibendum turpis scelerisque vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc tellus massa, volutpat vitae imperdiet in, blandit in magna. Curabitur in convallis nunc. Fusce tristique laoreet mi. Aliquam sit amet imperdiet libero, quis consectetur mauris. Vestibulum condimentum non sapien vitae accumsan. Suspendisse potenti.</p>
-
-    <p className="py-4 text-white" >Morbi ultrices, eros eget porta commodo, massa nisl sodales odio, sit amet lacinia risus massa in tortor. Duis vitae vulputate metus. Cras faucibus sapien ante, semper facilisis lectus facilisis ac. Praesent aliquet quam at nulla volutpat, in commodo ex tincidunt. Mauris id mi sit amet nulla iaculis convallis. Integer in semper leo. Sed turpis sapien, congue quis tempus ut, auctor dignissim tortor. Donec sed semper metus.</p>
-
-    <p className="py-4 text-white" >Aliquam erat volutpat. Vivamus dapibus bibendum nisi a volutpat. Donec ut velit orci. Mauris vitae hendrerit dui. Suspendisse egestas est magna, a rhoncus velit varius eget. Nulla tincidunt volutpat fermentum. Curabitur vitae velit rutrum, iaculis purus eu, semper tellus. Morbi volutpat ornare eros sit amet commodo. Sed eu condimentum lorem. Aliquam aliquam cursus turpis, sit amet rutrum urna. </p>
-    
-    <p className="py-4 text-white" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at feugiat libero, placerat ornare nulla. Mauris interdum purus quis quam consequat eleifend. Nunc turpis mauris, consequat sit amet auctor nec, porta vitae sapien. Cras cursus justo convallis, placerat dui eget, laoreet est. Proin vestibulum at orci at faucibus. Suspendisse vitae orci non quam auctor efficitur et ac tortor. Nulla id sapien sit amet velit posuere pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed tristique tellus vel odio feugiat vehicula. Nunc scelerisque lorem mollis quam posuere, id accumsan diam tristique. Donec eget sapien id ex luctus tempus at eget metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean porta urna lacinia, tristique mi sed, faucibus lacus. </p>
-
-    <p className="py-4 text-white" >Donec nisl dui, condimentum quis luctus eget, pretium nec nibh. In hac habitasse platea dictumst. Suspendisse dolor nulla, aliquam accumsan consectetur in, bibendum at tellus. Duis varius sit amet neque nec commodo. Aenean non iaculis ipsum. Curabitur sed sollicitudin neque. Pellentesque nec dolor eu massa malesuada lacinia a volutpat magna. Vivamus ac urna dictum, ultricies turpis elementum, varius dolor. Phasellus mi augue, placerat dictum ultrices sed, rutrum a justo. In ultrices velit vitae purus ornare, eu laoreet turpis cursus. Curabitur maximus tincidunt blandit. Fusce sit amet dignissim odio. Donec augue erat, dignissim in mi sed, iaculis cursus dolor. </p>
-
-    <p className="py-4 text-white" >Aliquam et sagittis ligula. Fusce eleifend erat nibh, quis bibendum turpis scelerisque vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc tellus massa, volutpat vitae imperdiet in, blandit in magna. Curabitur in convallis nunc. Fusce tristique laoreet mi. Aliquam sit amet imperdiet libero, quis consectetur mauris. Vestibulum condimentum non sapien vitae accumsan. Suspendisse potenti.</p>
-
-    <p className="py-4 text-white" >Morbi ultrices, eros eget porta commodo, massa nisl sodales odio, sit amet lacinia risus massa in tortor. Duis vitae vulputate metus. Cras faucibus sapien ante, semper facilisis lectus facilisis ac. Praesent aliquet quam at nulla volutpat, in commodo ex tincidunt. Mauris id mi sit amet nulla iaculis convallis. Integer in semper leo. Sed turpis sapien, congue quis tempus ut, auctor dignissim tortor. Donec sed semper metus.</p>
-
-    <p className="py-4 text-white" >Aliquam erat volutpat. Vivamus dapibus bibendum nisi a volutpat. Donec ut velit orci. Mauris vitae hendrerit dui. Suspendisse egestas est magna, a rhoncus velit varius eget. Nulla tincidunt volutpat fermentum. Curabitur vitae velit rutrum, iaculis purus eu, semper tellus. Morbi volutpat ornare eros sit amet commodo. Sed eu condimentum lorem. Aliquam aliquam cursus turpis, sit amet rutrum urna. </p>
-    
-    
-    <div className="modal-action fixed top-8 right-12 lg:right-56 bg-azure w-[40px] h-[40px] rounded-full text-center">
-      <form method="dialog">
-        {/* if there is a button in form, it will close the modal */}
-        <button className="btn text-lg text-white align-middle">  <span className="text-3xl text-white ">x</span> </button>
-      </form>
-    </div>
-  </div>
-</dialog>
 
 
 

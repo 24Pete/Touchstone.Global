@@ -66,7 +66,7 @@ body {
 
 }
 .slick-prev:before, .slick-next:before {
-font-size: 30px;
+font-size: 30px !important;
 }
 .confirmation-message {
   background-color: #17293A;

@@ -201,7 +201,7 @@ export default function Index() {
       <div className="container  mx-auto px-10 lg:px-20 relative">
         <div className="text-center">
         <h3 className="font-bold text-[48px]  text-azure">TOUCHSTONE COLLECTIVE</h3>
-        <p className="text-xl font-light text-white mt-4  mb-10"> Our mission is simple: to support you in navigating commercial and operational challenges. From business psychology, process and digital transformation to risk analysis, IT management, recruitment, development, and fostering innovative solutions.</p>
+        <p className="text-xl font-light text-white mt-4  mb-10"> Touchstone is passionate about supporting business, engaging directly with you and enabling the wider group to navigate those major challenges. From business psychology, overall strategy development, process deployment and digital transformation, through to risk analysis, recruitment and developing innovative solutions. We will empower your business to further develop its reach using your own resources with the continued help, support and stewardship from the Touchstone collective.</p>
         </div>
         <div >
         <Slick/>
