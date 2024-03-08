@@ -24,10 +24,10 @@ export default function Footer() {
                 <div className="col-span-2 mb-5">
          <Contact/>
                 </div>
-                <div className="col-span-1">
-             <a href="mailto:engage@touchstone.global" className="font-light text-[18px]  text-dusk">engage@toucshtone.global</a>
+                <div className="col-span-2 lg:col-span-1 ">
+             <a href="mailto:engage@touchstone.global" className="font-light text-[18px]  text-dusk">engage@touchstone.global</a>
               </div>
-              <div className="col-span-1 tar">
+              <div className="col-span-2 lg:col-span-1 lg:tar">
              <a href="tel:+442039241560" className="font-light text-[18px] text-dusk  inline-block -mt-2 relative -top-2 pr-2"> 0203 924 1560 </a>
              <a href="https://www.linkedin.com/company/touchstone-global/" className="font-light text-[18px] text-dusk pt-2 inline-block" target="blank"> <Image
       src="/images/linkedin.svg"
@@ -48,14 +48,24 @@ export default function Footer() {
 
       <Container>
         <div className="grid grid-cols-2 pt-10 ">
-          <div className="col-span-1 -top-4 relative">
+          <div className="col-span-2 lg:col-span-1  -top-4 relative">
             <Year />
-          <button className="pr-6 lg:pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_1') as HTMLDialogElement).showModal()}>Privacy Policy</button>
+          <button className="pr-6 lg:pt-10  text-[18px] font-light text-white block lg:inline-block pb-0 lg:pb-10" onClick={()=>(document.getElementById('my_modal_1') as HTMLDialogElement).showModal()}>Privacy Policy</button>
           <button className="pr-4  lg:pt-10 pb-10 text-[18px] font-light text-white" onClick={()=>(document.getElementById('my_modal_2') as HTMLDialogElement).showModal()}>Cookies</button>
 
           </div>
 
-          <div className="col-span-1 tar pt-4 pb-10">
+          <div className="col-span-2 lg:col-span-1 hidden lg:visible block tar pt-4 pb-10">
+<span className="relative -top-2 text-[18px] text-white"> Built By   </span>
+           <a href="https://plus24.agency" target="_blank" className="text-[18px] text-white">       <Image
+      src="/images/+24.svg"
+      width={30}
+      height={30}
+      alt="+24 Logo"
+      className="inline-block ml-2"
+    />  </a>
+          </div>
+          <div className="col-span-2 lg:col-span-1 lg:hidden visible block   pb-10">
 <span className="relative -top-2 text-[18px] text-white"> Built By   </span>
            <a href="https://plus24.agency" target="_blank" className="text-[18px] text-white">       <Image
       src="/images/+24.svg"
