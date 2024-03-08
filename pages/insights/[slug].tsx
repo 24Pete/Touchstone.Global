@@ -36,8 +36,12 @@ export default function Insights({ post, posts, preview }) {
                 </title>
                 <meta
                   property="og:image"
-                  content={post.featuredImage?.node.sourceUrl}
+                  content={post.featuredImage}
                 />
+                      <meta property="og:image" content="<generated>" />
+<meta property="og:image:type" content="<generated>" />
+<meta property="og:image:width" content="<generated>" />
+<meta property="og:image:height" content="<generated>" />
        <link rel="stylesheet" href="https://use.typekit.net/cpd3mbf.css"/>
       <meta name="description" content={post.title} />
 
