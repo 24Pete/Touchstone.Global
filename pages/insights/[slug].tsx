@@ -38,6 +38,9 @@ export default function Insights({ post, posts, preview }) {
                   property="og:image"
                   content={post.featuredImage?.node.sourceUrl}
                 />
+       <link rel="stylesheet" href="https://use.typekit.net/cpd3mbf.css"/>
+      <meta name="description" content={post.title} />
+
               </Head>
               <Intro />
               <PostHeader
