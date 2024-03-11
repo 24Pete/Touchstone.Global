@@ -24,7 +24,7 @@ export default function Intro() {
     </Link>
       </div>
       <div className="col-span-1  tar ">
-      <a href="#getintouch" className="bg-azure pt-3 pb-3 pl-6 pr-6 font-bold text-dusk text-lg uppercase "   data-scroll-to>
+      <a href="#getintouch" className="bg-azure pt-3 pb-3 pl-2 pr-2 lg:pl-6 lg:pr-6 font-bold text-dusk text-sm lg:text-lg uppercase "   data-scroll-to>
       Get In Touch
 
       </a>

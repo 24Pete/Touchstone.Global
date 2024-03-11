@@ -200,7 +200,7 @@ export default function Index() {
       <section className="touchstone-collective pt-16">
       <div className="container  mx-auto px-10 lg:px-20 relative">
         <div className="text-center">
-        <h3 className="font-bold text-[48px]  text-azure">TOUCHSTONE COLLECTIVE</h3>
+        <h3 className="font-bold text-[35px] lg:text-[48px]  text-azure">TOUCHSTONE COLLECTIVE</h3>
         <p className="text-xl font-light text-white mt-4  mb-10"> Touchstone is passionate about supporting business, engaging directly with you and enabling the wider group to navigate those major challenges. From business psychology, overall strategy development, process deployment and digital transformation, through to risk analysis, recruitment and developing innovative solutions. We will empower your business to further develop its reach using your own resources with the continued help, support and stewardship from the Touchstone collective.</p>
         </div>
         <div >
