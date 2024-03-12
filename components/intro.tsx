@@ -6,7 +6,7 @@ export default function Intro() {
 
   
   return (
-    <section className=" pt-6 mt-6  top-0 w-full z-10"  >
+    <section className=" pt-6 mt-6  top-0 w-full z-10 relative"  >
 <div className="grid grid-cols-2 mx-5	">
 
 
