@@ -27,6 +27,12 @@ function MyApp({ Component, pageProps }: AppProps) {
     <RLSProvider
     options={{
       smooth: true,
+      mobile:{
+        breakpoint: 0,
+      },
+      tablet: {
+        breakpoint: 0,    // <---- Fixes The Issue 🎉
+      }
       // ... all available Locomotive Scroll instance options
     }}
     watch={
